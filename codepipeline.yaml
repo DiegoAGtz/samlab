@@ -44,7 +44,7 @@ Parameters:
     Default: "us-west-2"
   TestingStackName:
     Type: String
-    Default: "release-dev"
+    Default: "samlab-release-main"
   TestingPipelineExecutionRole:
     Type: String
     Default: "arn:aws:iam::314146298455:role/aws-sam-cli-managed-bootstrap-PipelineExecutionRole-PR05uNrVZvf7"
@@ -65,7 +65,7 @@ Parameters:
     Default: "us-west-2"
   ProdStackName:
     Type: String
-    Default: "release-dev"
+    Default: "samlab-release-main"
   ProdPipelineExecutionRole:
     Type: String
     Default: "arn:aws:iam::314146298455:role/aws-sam-cli-managed-bootstrap-PipelineExecutionRole-PR05uNrVZvf7"

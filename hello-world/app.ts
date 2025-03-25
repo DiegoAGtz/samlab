@@ -15,7 +15,7 @@ export const lambdaHandler = async (event: APIGatewayProxyEvent): Promise<APIGat
         return {
             statusCode: 200,
             body: JSON.stringify({
-                message: 'Forget about the hello world stuf, this is the real change',
+                message: 'The real one is this',
             }),
         };
     } catch (err) {

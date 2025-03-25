@@ -32,7 +32,7 @@ Parameters:
     Default: "GitHub"
   FullRepositoryId:
     Type: String
-    Default: "diegoagtz/samlab"
+    Default: "DiegoAGtz/samlab"
   MainGitBranch:
     Type: String
     Default: "master"
